@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SELECTA Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>SELECTA</h2>
+    <a onclick="loadPage('intro')">Introductions</a>
+    <a onclick="loadPage('model')">Model Explanation</a>
+    <a onclick="toggleMenu()">Result Apps ▼</a>
+
+    <div id="submenu">
+        <a onclick="loadCity('yogyakarta')">Kota Yogyakarta</a>
+        <a onclick="loadCity('bantul')">Kota Bantul</a>
+        <a onclick="loadCity('sleman')">Kota Sleman</a>
+        <a onclick="loadCity('gunungkidul')">Kota Gunungkidul</a>
+        <a onclick="loadCity('kulonprogo')">Kota Kulonprogo</a>
+    </div>
+</div>
+
+<div class="main">
+    <div class="header">
+        <h1>SELECTA Dashboard</h1>
+        <img src="assets/logo.png" class="logo">
+    </div>
+
+    <div id="content" class="content">
+        <h2>Welcome</h2>
+        <p>Pilih menu di samping untuk melihat hasil perhitungan KNN.</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

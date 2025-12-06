@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    font-family: Arial;
+}
+
+.sidebar {
+    width: 230px;
+    background: #1d3557;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#submenu {
+    display: none;
+    margin-left: 15px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80px;
+}
+
+.content {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+}
